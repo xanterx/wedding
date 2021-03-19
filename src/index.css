@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Laila Regular';
   src: local('Laila Regular'),
-    url(./assets/fonts/Laila-Regular.ttf) format('ttf');
+    url(./assets/fonts/Laila-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Laila SemiBold';
   src: local('Laila SemiBold'),
-    url(./assets/fonts/Laila-SemiBold.ttf) format('ttf');
+    url(./assets/fonts/Laila-SemiBold.ttf) format('truetype');
 }
 
 body {

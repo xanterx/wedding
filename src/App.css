@@ -1,13 +1,12 @@
 .App {
   text-align: center;
   background: #fff0e5;
+  /* display: flex;
+  flex-flow: column;
+  height: 100%; */
   /* padding: 10px; */
 }
 
 .Main {
   /* background: green; */
-}
-
-.Actions {
-  /* background: yellow; */
 }
