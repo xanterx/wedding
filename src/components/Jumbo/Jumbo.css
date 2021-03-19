@@ -1,0 +1,25 @@
+.Jumbo {
+  background: #fff0e5;
+}
+
+.BaseImg {
+  margin: 10px auto;
+  background: #fff0e5;
+}
+
+.Img {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-right: 10px;
+}
+
+.Art {
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
