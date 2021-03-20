@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd728731.chunk.css",
+    "main.js": "/static/js/main.04b1b9ed.chunk.js",
+    "main.js.map": "/static/js/main.04b1b9ed.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.552c03d3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.552c03d3.js.map",
+    "static/js/2.c063ec91.chunk.js": "/static/js/2.c063ec91.chunk.js",
+    "static/js/2.c063ec91.chunk.js.map": "/static/js/2.c063ec91.chunk.js.map",
+    "static/js/3.73213994.chunk.js": "/static/js/3.73213994.chunk.js",
+    "static/js/3.73213994.chunk.js.map": "/static/js/3.73213994.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/main.dd728731.chunk.css.map": "/static/css/main.dd728731.chunk.css.map",
+    "static/js/2.c063ec91.chunk.js.LICENSE.txt": "/static/js/2.c063ec91.chunk.js.LICENSE.txt",
+    "static/media/L1-Hole.735d1bcd.png": "/static/media/L1-Hole.735d1bcd.png",
+    "static/media/L2-Cover.9bddfa66.png": "/static/media/L2-Cover.9bddfa66.png",
+    "static/media/L3-BackFlower.fe5c725a.png": "/static/media/L3-BackFlower.fe5c725a.png",
+    "static/media/L4-US.99484271.png": "/static/media/L4-US.99484271.png",
+    "static/media/L5-FrontFlower.93dbadb3.png": "/static/media/L5-FrontFlower.93dbadb3.png",
+    "static/media/L6-Banner-HA.334c7deb.png": "/static/media/L6-Banner-HA.334c7deb.png",
+    "static/media/index.css": "/static/media/ZapfinoForteLT-One.5acda9ec.otf",
+    "static/media/Lord-Ganesha-Vector.a594bb7b.svg": "/static/media/Lord-Ganesha-Vector.a594bb7b.svg",
+    "static/media/left-arrow.80179bee.svg": "/static/media/left-arrow.80179bee.svg",
+    "static/media/right-arrow.011bf4f1.svg": "/static/media/right-arrow.011bf4f1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.552c03d3.js",
+    "static/js/2.c063ec91.chunk.js",
+    "static/css/main.dd728731.chunk.css",
+    "static/js/main.04b1b9ed.chunk.js"
+  ]
+}
