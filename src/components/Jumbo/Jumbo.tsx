@@ -1,4 +1,5 @@
 import './Jumbo.css';
+import { ReactComponent as L0 } from 'assets/images/L0-Background.svg';
 import L1 from 'assets/images/L1-Hole.png';
 import L2 from 'assets/images/L2-Cover.png';
 import L3 from 'assets/images/L3-BackFlower.png';
@@ -10,6 +11,9 @@ const Jumbo: React.FC = () => {
   return (
     <div className="Jumbo">
       <div className="BaseImg">
+        <L0 className="Art" />
+      </div>
+      <div className="Img">
         <img className="Art" src={L1} alt="Layer 1" />
       </div>
       <div className="Img">

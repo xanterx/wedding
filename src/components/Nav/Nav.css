@@ -1,7 +1,6 @@
 .Nav {
-  position: fixed;
+  flex: 0 1 auto;
   width: 100%;
-  top: 0;
   z-index: 2;
   background: #d65e6e;
   display: flex;
@@ -10,7 +9,7 @@
   border-radius: 0px 0px 8px 8px;
   box-shadow: 0px 3px 6px #00000029;
 }
-
+/* Navigation Bar */
 .NavAction {
   margin-top: auto;
   margin-bottom: auto;

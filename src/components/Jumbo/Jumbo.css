@@ -1,24 +1,26 @@
 .Jumbo {
+  flex: 0 1 auto;
   background: #fff0e5;
+  margin: auto;
+  position: relative;
 }
 
+/* Jumbotron */
 .BaseImg {
-  margin: 10px auto;
-  background: #fff0e5;
+  width: 100%;
+  min-height: 300px;
 }
 
 .Img {
   position: absolute;
-  top: 60px;
+  top: 5px;
   left: 0;
   right: 0;
-  margin: auto;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .Art {
-  max-width: 500px;
-  max-height: 500px;
+  min-width: 300px;
   width: 100%;
   height: auto;
   z-index: 1;

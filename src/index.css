@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Laila Regular';
-  src: local('Laila Regular'),
-    url(./assets/fonts/Laila-Regular.ttf) format('truetype');
+  font-family: 'Gotu Regular';
+  src: local('Gotu Regular'),
+    url(./assets/fonts/Gotu-Regular.ttf) format('truetype');
 }
 
 @font-face {
@@ -24,6 +24,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+#root {
+  height: 100%;
 }
 
 code {
