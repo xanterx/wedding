@@ -10,8 +10,15 @@
     url(./assets/fonts/Laila-SemiBold.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Zapfino Forte LT One Regular';
+  src: local('Zapfino Forte LT One Regular'),
+    url(./assets/fonts/ZapfinoForteLT-One.otf) format('OpenType');
+}
+
 body {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

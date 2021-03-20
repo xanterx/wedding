@@ -1,6 +1,9 @@
 .Nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
   background: #d65e6e;
-  overflow: hidden;
   display: flex;
   justify-content: space-between;
   min-height: 50px;

@@ -7,8 +7,17 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Nav />
-      <Jumbo />
-      <div className="Main">Main</div>
+      <div className="Main">
+        <Jumbo />
+        <div className="Invite">
+          <p className="SubScript">ARE GETTING MARRIED</p>
+          <p>2nd of May 2021</p>
+          <p className="SubScript">AT</p>
+          <a href="https://goo.gl/maps/vx4uyb3fL1CCgVAe8">
+            <p>Shree Krishan Janmashtmi Ashram Vrindavan</p>
+          </a>
+        </div>
+      </div>
       <Actions />
     </div>
   );
