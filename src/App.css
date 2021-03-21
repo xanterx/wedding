@@ -8,7 +8,6 @@
 }
 
 /* Sections */
-
 .Actions {
   position: fixed;
   bottom: 15px;
@@ -19,6 +18,7 @@
 }
 
 /* Actions */
+
 .Language {
   display: flex;
   align-items: center;
@@ -39,8 +39,19 @@
   );
   box-shadow: 0px 3px 6px #00000029;
   z-index: 3;
+  transition: transform 1s;
+}
+
+.Hidden {
+  transform: translateY(70px);
 }
 
 .Button {
+  /* cursor: pointer; */
+}
+
+.BtnNotActive {
+  text-shadow: 4px 4px 2px #00000029;
+  color: #fff0e5;
   cursor: pointer;
 }

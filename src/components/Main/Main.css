@@ -5,9 +5,20 @@
 }
 
 /* Main */
+
+@keyframes shadow {
+  from {
+    text-shadow: 0px 3px 6px #00000029;
+  }
+  to {
+    text-shadow: 0px 7px 1px #00000029;
+  }
+}
+
 a {
   text-decoration: none;
   color: #504741;
+  animation: shadow 0.6s ease-in-out 0.1s infinite alternate;
 }
 
 p {
