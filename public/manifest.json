@@ -1,6 +1,6 @@
 {
   "short_name": "A&H",
-  "name": "✨ Wedding Invitation ✨",
+  "name": "✨ A&H Wedding Invitation ✨",
   "description": "We Invite you to our wedding",
   "icons": [
     {
@@ -17,6 +17,7 @@
     }
   ],
   "start_url": ".",
+  "scope": "https://xanterx.github.io/wedding/",
   "display": "standalone",
   "theme_color": "#d65e6e",
   "background_color": "#000000"
