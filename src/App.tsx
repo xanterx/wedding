@@ -85,7 +85,7 @@ const App: React.FC = () => {
         {installPrompt ? (
           <div className="Install">
             <div className="Button" onClick={() => installationHandler()}>
-              <Download fill="#fff0e5" />
+              <Download className="BtnIcon" fill="#fff0e5" />
             </div>
           </div>
         ) : null}
