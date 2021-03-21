@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.d6b8c9c1.chunk.css",
-    "main.js": "/wedding/static/js/main.f86031bc.chunk.js",
-    "main.js.map": "/wedding/static/js/main.f86031bc.chunk.js.map",
+    "main.css": "/wedding/static/css/main.e0df9721.chunk.css",
+    "main.js": "/wedding/static/js/main.c387874f.chunk.js",
+    "main.js.map": "/wedding/static/js/main.c387874f.chunk.js.map",
     "runtime-main.js": "/wedding/static/js/runtime-main.ca6c3080.js",
     "runtime-main.js.map": "/wedding/static/js/runtime-main.ca6c3080.js.map",
     "static/js/2.11d71552.chunk.js": "/wedding/static/js/2.11d71552.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/wedding/index.html",
     "service-worker.js": "/wedding/service-worker.js",
     "service-worker.js.map": "/wedding/service-worker.js.map",
-    "static/css/main.d6b8c9c1.chunk.css.map": "/wedding/static/css/main.d6b8c9c1.chunk.css.map",
+    "static/css/main.e0df9721.chunk.css.map": "/wedding/static/css/main.e0df9721.chunk.css.map",
     "static/js/2.11d71552.chunk.js.LICENSE.txt": "/wedding/static/js/2.11d71552.chunk.js.LICENSE.txt",
     "static/media/index.css": "/wedding/static/media/ZapfinoForteLT-One.5acda9ec.otf",
     "static/media/L0-Background.24b29c38.svg": "/wedding/static/media/L0-Background.24b29c38.svg",
@@ -23,13 +23,14 @@
     "static/media/L5-FrontFlower.8b4fd458.png": "/wedding/static/media/L5-FrontFlower.8b4fd458.png",
     "static/media/L6-Banner-HA.b093821f.png": "/wedding/static/media/L6-Banner-HA.b093821f.png",
     "static/media/Lord-Ganesha-Vector.a594bb7b.svg": "/wedding/static/media/Lord-Ganesha-Vector.a594bb7b.svg",
+    "static/media/download.d66984a3.svg": "/wedding/static/media/download.d66984a3.svg",
     "static/media/left-arrow.80179bee.svg": "/wedding/static/media/left-arrow.80179bee.svg",
     "static/media/right-arrow.011bf4f1.svg": "/wedding/static/media/right-arrow.011bf4f1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca6c3080.js",
     "static/js/2.11d71552.chunk.js",
-    "static/css/main.d6b8c9c1.chunk.css",
-    "static/js/main.f86031bc.chunk.js"
+    "static/css/main.e0df9721.chunk.css",
+    "static/js/main.c387874f.chunk.js"
   ]
 }
