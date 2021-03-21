@@ -1,24 +1,19 @@
 {
   "short_name": "A&H",
-  "name": "Antriksh ❤️ Harshita",
+  "name": "✨ Wedding Invitation ✨",
   "description": "We Invite you to our wedding",
   "icons": [
     {
       "src": "maskable_icon_x192.png",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icon-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "maskable any"
     },
     {
       "src": "maskable_icon_x512.png",
       "type": "image/png",
       "sizes": "512x512",
-      "purpose": "maskable"
+      "purpose": "maskable any"
     }
   ],
   "start_url": ".",
