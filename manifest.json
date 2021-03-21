@@ -1,6 +1,6 @@
 {
   "short_name": "A&H",
-  "name": "Antriksh ❤️ Harshita",
+  "name": "✨ Wedding Invitation ✨",
   "description": "We Invite you to our wedding",
   "icons": [
     {
@@ -17,6 +17,7 @@
     }
   ],
   "start_url": ".",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#d65e6e",
   "background_color": "#000000"
