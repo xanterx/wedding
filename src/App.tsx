@@ -51,26 +51,10 @@ const App: React.FC = () => {
   const [english, setEnglish] = useState<boolean>(true);
   const [active, setActive] = useState<boolean>(true);
 
-  const handleOnIdle = () => {
-    setActive(false);
-    // console.log('user is idle', event);
-    console.log('last active', getLastActiveTime());
-  };
-
-  const handleOnActive = () => {
-    setActive(true);
-    // console.log('user is active', event);
-    console.log('time remaining', getRemainingTime());
-  };
-
-  // const handleOnAction = (e: any) => {
-  //   console.log('user did something', e);
-  // };
-
-  const { getRemainingTime, getLastActiveTime } = useIdleTimer({
+  useIdleTimer({
     timeout: 1000 * 5,
-    onIdle: handleOnIdle,
-    onActive: handleOnActive,
+    onIdle: () => setActive(false),
+    onActive: () => setActive(true),
     // onAction: handleOnAction,
     // debounce: 500,
   });

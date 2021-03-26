@@ -1,0 +1,56 @@
+{
+    "english": [
+        {
+            "icon": "ring",
+            "desc": "Engagement",
+            "time": "10:00 AM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        }
+    ],
+    "hindi": [
+        {
+            "icon": "ring",
+            "desc": "Hindi",
+            "time": "10:00 AM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Jai Mala",
+            "time": "12:00 PM"
+        }
+    ]
+}

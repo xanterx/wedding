@@ -1,4 +1,8 @@
+import SwipeableViews from 'react-swipeable-views';
+
 import './Main.css';
+import HnA from './HnA/HnA';
+import Events from './Events/Events';
 
 interface IProps {
   isEnglish: boolean;
@@ -7,28 +11,18 @@ interface IProps {
 const Main: React.FC<IProps> = ({ isEnglish }) => {
   return (
     <div className="Main">
-      <div className="Invite">
-        {isEnglish ? (
-          <div className="English">
-            <p className="SubScript">ARE GETTING MARRIED</p>
-            <p>2nd of May 2021</p>
-            <p className="SubScript">AT</p>
-            <a href="https://goo.gl/maps/vx4uyb3fL1CCgVAe8">
-              <p>Shree Krishan Janmashtmi Ashram Vrindavan</p>
-            </a>
-          </div>
-        ) : (
-          <div className="Hindi">
-            <p className="SubScript">का विवाह</p>
-            <p>२ मई २०२१</p>
-            <p className="SubScript">को</p>
-            <a href="https://goo.gl/maps/vx4uyb3fL1CCgVAe8">
-              <p>श्री कृष्ण जन्माष्टमी आश्रम वृंदावन</p>
-            </a>
-            <p className="SubScript">मे है</p>
-          </div>
-        )}
-      </div>
+      {/* @ts-ignore */}
+      <SwipeableViews enableMouseEvents index={1}>
+        <div className="Page">
+          <Events isEnglish={isEnglish} />
+        </div>
+        <div className="Page">
+          <HnA isEnglish={isEnglish} />
+        </div>
+        <div className="Page">
+          <Events isEnglish={isEnglish} />
+        </div>
+      </SwipeableViews>
     </div>
   );
 };
