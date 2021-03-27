@@ -48,8 +48,9 @@ const App: React.FC = () => {
     console.log('PWA was installed');
   });
 
-  const [english, setEnglish] = useState<boolean>(true);
   const [active, setActive] = useState<boolean>(true);
+  const [english, setEnglish] = useState<boolean>(true);
+  const [page, setPage] = useState<number>(1);
 
   useIdleTimer({
     timeout: 1000 * 5,
@@ -59,11 +60,18 @@ const App: React.FC = () => {
     // debounce: 500,
   });
 
+  const onClickHandler = (b: boolean) => {
+    if (english !== b) {
+      window.navigator.vibrate(10);
+    }
+    setEnglish(b);
+  };
+
   return (
     <div className="App">
-      <Nav />
+      <Nav page={page} />
       <Jumbo />
-      <Main isEnglish={english} />
+      <Main isEnglish={english} onChange={(ci) => setPage(ci)} />
 
       <div className="Actions">
         {installPrompt ? (
@@ -76,13 +84,13 @@ const App: React.FC = () => {
         <div className={`Language ${active ? '' : 'Hidden'}`}>
           <div
             className={`Button ${english ? '' : 'BtnNotActive'}`}
-            onClick={() => setEnglish(true)}
+            onClick={() => onClickHandler(true)}
           >
             English
           </div>
           <div
             className={`Button ${english ? 'BtnNotActive' : ''}`}
-            onClick={() => setEnglish(false)}
+            onClick={() => onClickHandler(false)}
           >
             हिन्दी
           </div>
