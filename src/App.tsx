@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useIdleTimer } from 'react-idle-timer';
+import { Snackbar, Button } from '@material-ui/core';
 
 import './App.css';
+import * as serviceWorker from './serviceWorkerRegistration';
 import Nav from 'components/Nav/Nav';
 import Jumbo from 'components/Jumbo/Jumbo';
 import Main from 'components/Main/Main';
@@ -9,6 +11,28 @@ import { ReactComponent as Download } from 'assets/images/download.svg';
 // import Actions from 'components/Actions/Actions';
 
 const App: React.FC = () => {
+  // Page Update logic
+  const [showReload, setShowReload] = useState(false);
+  const [waitingWorker, setWaitingWorker] = useState<ServiceWorker | null>(
+    null
+  );
+
+  const onSWUpdate = (registration: ServiceWorkerRegistration) => {
+    setShowReload(true);
+    setWaitingWorker(registration.waiting);
+  };
+
+  useEffect(() => {
+    serviceWorker.register({ onUpdate: onSWUpdate });
+  }, []);
+
+  const reloadPage = () => {
+    waitingWorker?.postMessage({ type: 'SKIP_WAITING' });
+    setShowReload(false);
+    window.location.reload();
+  };
+
+  // Page Install logic
   const [installPrompt, setInstallPrompt] = useState<boolean>(false);
   const [deferredPrompt, setDeferredPrompt] = useState<any>();
 
@@ -48,6 +72,7 @@ const App: React.FC = () => {
     console.log('PWA was installed');
   });
 
+  //  Page logic
   const [active, setActive] = useState<boolean>(true);
   const [english, setEnglish] = useState<boolean>(true);
   const [page, setPage] = useState<number>(1);
@@ -74,6 +99,17 @@ const App: React.FC = () => {
       <Main isEnglish={english} onChange={(ci) => setPage(ci)} />
 
       <div className="Actions">
+        <Snackbar
+          open={showReload}
+          message="We have updated few things!"
+          onClick={reloadPage}
+          anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+          action={
+            <Button color="inherit" size="small" onClick={reloadPage}>
+              Reload
+            </Button>
+          }
+        />
         {installPrompt ? (
           <div className="Install">
             <div className="Button" onClick={() => installationHandler()}>
