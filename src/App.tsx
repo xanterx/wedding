@@ -61,7 +61,7 @@ const App: React.FC = () => {
   });
 
   const onClickHandler = (b: boolean) => {
-    if (english !== b) {
+    if (english !== b && window.navigator.vibrate) {
       window.navigator.vibrate(10);
     }
     setEnglish(b);
