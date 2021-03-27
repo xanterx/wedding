@@ -3,6 +3,7 @@ import { useIdleTimer } from 'react-idle-timer';
 
 import './ActionBar.css';
 import { useLang } from 'context/AppContext';
+import { vibrate } from 'utils';
 
 const ActionBar = () => {
   const lang = useLang();
@@ -18,9 +19,10 @@ const ActionBar = () => {
   });
 
   const onClickHandler = (b: boolean) => {
-    if (lang.state.isEnglish !== b && window.navigator.vibrate) {
-      window.navigator.vibrate(10);
+    if (lang.state.isEnglish !== b) {
+      vibrate(10);
     }
+    localStorage.setItem('language', b.toString());
     lang.dispatch({ type: b });
   };
 

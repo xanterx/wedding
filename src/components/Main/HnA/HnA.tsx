@@ -25,7 +25,7 @@ const HnA: React.FC<IProps> = ({ isEnglish }) => {
             <a href="https://goo.gl/maps/vx4uyb3fL1CCgVAe8">
               <p>श्री कृष्ण जन्माष्टमी आश्रम वृंदावन</p>
             </a>
-            <p className="SubScript">मे है</p>
+            <p className="SubScript">में है</p>
           </div>
         )}
       </div>

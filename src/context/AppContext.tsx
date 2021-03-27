@@ -57,7 +57,14 @@ const PageProvider = ({ children }: PageProviderProps) => {
 };
 
 const LangProvider = ({ children }: LangProviderProps) => {
-  const [state, dispatch] = useReducer(langReducer, { isEnglish: true });
+  const fetchLang = localStorage.getItem('language');
+  let defaultLang: boolean = true;
+  if (fetchLang) {
+    defaultLang = fetchLang === 'true';
+  }
+  const [state, dispatch] = useReducer(langReducer, {
+    isEnglish: defaultLang,
+  });
   const value = { state, dispatch };
   return <LangContext.Provider value={value}>{children}</LangContext.Provider>;
 };

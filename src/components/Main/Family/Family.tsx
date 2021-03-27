@@ -14,12 +14,12 @@ const Family: React.FC<IProps> = (props: IProps) => {
       <div className="Invite">
         {props.isEnglish
           ? data.english.map((v, i) => (
-              <People key={i} role={v.role} name={v.name}>
+              <People key={i} role={v.role} name={v.name} side={v.side}>
                 {/* <Icon name={v.icon} /> */}
               </People>
             ))
           : data.hindi.map((v, i) => (
-              <People key={i} role={v.role} name={v.name}>
+              <People key={i} role={v.role} name={v.name} side={v.side}>
                 {/* <Icon name={v.icon} /> */}
               </People>
             ))}

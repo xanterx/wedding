@@ -5,7 +5,7 @@ interface CardProps {
   mm: string;
   ampm: string;
   desc: string;
-  //   isEnglish: boolean;
+  date?: string;
   children: React.ReactNode;
 }
 
@@ -22,7 +22,7 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
         </div>
         <div className={styles.Description}>
           <div>{props.desc}</div>
-          <div className={styles.Actions}></div>
+          <div className={styles.Date}>{props.date}</div>
         </div>
       </div>
     </div>

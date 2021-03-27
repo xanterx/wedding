@@ -15,8 +15,9 @@ const Main: React.FC = () => {
       <SwipeableViews
         className="Main"
         enableMouseEvents
-        index={1}
+        index={page.state.index}
         resistance
+        animateHeight
         onChangeIndex={(ci) =>
           page.dispatch({ type: PageActions.SET, payload: ci })
         }
