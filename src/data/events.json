@@ -2,55 +2,75 @@
     "english": [
         {
             "icon": "ring",
+            "desc": "Lunch",
+            "time": "01:00 PM"
+        },
+        {
+            "icon": "ring",
             "desc": "Engagement",
-            "time": "10:00 AM"
+            "time": "02:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Baraat",
+            "time": "06:00 PM"
+        },
+        {
+            "icon": "ring",
+            "desc": "Dinner",
+            "time": "08:00 PM"
         },
         {
             "icon": "ring",
             "desc": "Jai Mala",
-            "time": "12:00 PM"
+            "time": "09:00 PM"
         },
         {
             "icon": "ring",
-            "desc": "Jai Mala",
-            "time": "12:00 PM"
+            "desc": "Marriage Ceremony",
+            "time": "02:00 AM"
         },
         {
             "icon": "ring",
-            "desc": "Jai Mala",
-            "time": "12:00 PM"
-        },
-        {
-            "icon": "ring",
-            "desc": "Jai Mala",
-            "time": "12:00 PM"
+            "desc": "Vidai",
+            "time": "06:00 AM"
         }
     ],
     "hindi": [
         {
             "icon": "ring",
-            "desc": "Hindi",
-            "time": "10:00 AM"
+            "desc": "भोजन",
+            "time": "०१:०० मध्याह्न"
         },
         {
             "icon": "ring",
-            "desc": "Jai Mala",
-            "time": "12:00 PM"
+            "desc": "टीका एवम् गोद भराई",
+            "time": "०२:०० अपराहन"
         },
         {
             "icon": "ring",
-            "desc": "Jai Mala",
-            "time": "12:00 PM"
+            "desc": "घुड़चड़ी एवम् चढ़त",
+            "time": "०६:०० सायं"
         },
         {
             "icon": "ring",
-            "desc": "Jai Mala",
-            "time": "12:00 PM"
+            "desc": "प्रीतिभोज",
+            "time": "०८:०० रात्रि"
         },
         {
             "icon": "ring",
-            "desc": "Jai Mala",
-            "time": "12:00 PM"
+            "desc": "जयमाला",
+            "time": "०९:०० रात्रि"
+        },
+        {
+            "icon": "ring",
+            "desc": "पाणिग्रहण संस्कार",
+            "time": "०२:०० मध्यरात्रि"
+        },
+        {
+            "icon": "ring",
+            "desc": "वधु संग आगमन",
+            "time": "०६:०० प्रातः"
         }
     ]
 }

@@ -1,0 +1,96 @@
+{
+    "english": [
+        {
+            "icon": "ring",
+            "role": "Groom",
+            "name": "Antriksh Kumar Singh"
+        },
+        {
+            "icon": "ring",
+            "role": "Bride",
+            "name": "Harshita Hayaran"
+        },
+        {
+            "icon": "ring",
+            "role": "Groom's Father",
+            "name": "Dr. Baboo Singh"
+        },
+        {
+            "icon": "ring",
+            "role": "Bride's Father",
+            "name": "Vinod Hayaran"
+        },
+        {
+            "icon": "ring",
+            "role": "Groom's Mother",
+            "name": "Usha Singh"
+        },
+        {
+            "icon": "ring",
+            "role": "Bride's Mother",
+            "name": "Abha Hayaran"
+        },
+        {
+            "icon": "ring",
+            "role": "Groom's Sister",
+            "name": "Akanksha Singh"
+        },
+        {
+            "icon": "ring",
+            "role": "Groom's Brother in Law",
+            "name": "Anup Sharma"
+        },
+        {
+            "icon": "ring",
+            "role": "Bride's Sister",
+            "name": "Yashika Hayaran"
+        }
+    ],
+    "hindi": [
+        {
+            "icon": "ring",
+            "role": "दूल्हा",
+            "name": "अंतरिक्ष कुमार सिंह"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हन",
+            "name": "हर्षिता हयारण"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हे के पिताजी",
+            "name": "डा. बाबू सिंह"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हन के पिताजी",
+            "name": "श्री विनोद हयारण"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हे की माताजी",
+            "name": "श्रीमती उषा सिंह"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हन की माताजी",
+            "name": "श्रीमती आभा हयारण"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हे की बहन",
+            "name": "आकांक्षा सिंह"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हे के  जीजाजी",
+            "name": "अनुप शर्मा"
+        },
+        {
+            "icon": "ring",
+            "role": "दुल्हन की बहन",
+            "name": "याशिका हयारण"
+        }
+    ]
+}

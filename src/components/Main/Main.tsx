@@ -4,29 +4,31 @@ import './Main.css';
 import HnA from './HnA/HnA';
 import Events from './Events/Events';
 import Family from './Family/Family';
+import { useLang, usePage, PageActions } from 'context/AppContext';
 
-interface IProps {
-  isEnglish: boolean;
-  onChange: (ci: number) => void;
-}
-
-const Main: React.FC<IProps> = (props: IProps) => {
+const Main: React.FC = () => {
+  const lang = useLang();
+  const page = usePage();
   return (
     <div className="Main">
       {/* @ts-ignore */}
       <SwipeableViews
+        className="Main"
         enableMouseEvents
         index={1}
-        onChangeIndex={(ci) => props.onChange(ci)}
+        resistance
+        onChangeIndex={(ci) =>
+          page.dispatch({ type: PageActions.SET, payload: ci })
+        }
       >
         <div className="Page">
-          <Events isEnglish={props.isEnglish} />
+          <Events isEnglish={lang.state.isEnglish} />
         </div>
         <div className="Page">
-          <HnA isEnglish={props.isEnglish} />
+          <HnA isEnglish={lang.state.isEnglish} />
         </div>
         <div className="Page">
-          <Family isEnglish={props.isEnglish} />
+          <Family isEnglish={lang.state.isEnglish} />
         </div>
       </SwipeableViews>
     </div>

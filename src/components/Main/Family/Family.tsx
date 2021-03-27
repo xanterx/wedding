@@ -1,8 +1,8 @@
 import './Family.css';
 
 import People from 'components/People/People';
-import Icon from 'components/Icon/Icon';
-import data from 'data/events.json';
+// import Icon from 'components/Icon/Icon';
+import data from 'data/family.json';
 
 interface IProps {
   isEnglish: boolean;
@@ -12,18 +12,17 @@ const Family: React.FC<IProps> = (props: IProps) => {
   return (
     <div className="Family">
       <div className="Invite">
-        <People role="Groom" name="Antriksh Kumar Singh">
-          {/* <Icon name={v.icon} /> */}
-        </People>
-        <People role="Bride" name="Harshita Hayaran">
-          {/* <Icon name={v.icon} /> */}
-        </People>
-        <People role="Bride" name="Harshita Hayaran">
-          {/* <Icon name={v.icon} /> */}
-        </People>
-        <People role="Bride" name="Harshita Hayaran">
-          {/* <Icon name={v.icon} /> */}
-        </People>
+        {props.isEnglish
+          ? data.english.map((v, i) => (
+              <People key={i} role={v.role} name={v.name}>
+                {/* <Icon name={v.icon} /> */}
+              </People>
+            ))
+          : data.hindi.map((v, i) => (
+              <People key={i} role={v.role} name={v.name}>
+                {/* <Icon name={v.icon} /> */}
+              </People>
+            ))}
       </div>
     </div>
   );

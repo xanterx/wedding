@@ -1,12 +1,10 @@
 .Main {
   flex: 1 1 auto;
-  overflow-y: scroll;
   padding-bottom: 75px;
+  overflow-y: scroll;
 }
 
 .Page {
-  /* padding: 15px;
-  min-height: 100px;
-  color: aqua;
-  background: red; */
+  padding: 15px;
+  /* overflow-y: hidden; */
 }

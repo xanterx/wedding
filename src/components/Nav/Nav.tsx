@@ -2,16 +2,14 @@ import './Nav.css';
 import { ReactComponent as Ganesha } from 'assets/images/Lord-Ganesha-Vector.svg';
 import { ReactComponent as Left } from 'assets/images/left-arrow.svg';
 import { ReactComponent as Right } from 'assets/images/right-arrow.svg';
+import { usePage } from 'context/AppContext';
 
-interface IProps {
-  page: number;
-}
-
-const Nav: React.FC<IProps> = (props: IProps) => {
+const Nav: React.FC = () => {
+  const page = usePage();
   return (
     <div className="Nav">
       {(() => {
-        switch (props.page) {
+        switch (page.state.index) {
           case 0:
             return (
               <>
