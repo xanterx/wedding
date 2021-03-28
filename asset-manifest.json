@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.dc17377e.chunk.css",
-    "main.js": "/wedding/static/js/main.2fa17557.chunk.js",
-    "main.js.map": "/wedding/static/js/main.2fa17557.chunk.js.map",
+    "main.css": "/wedding/static/css/main.c24f7f11.chunk.css",
+    "main.js": "/wedding/static/js/main.a57c60a1.chunk.js",
+    "main.js.map": "/wedding/static/js/main.a57c60a1.chunk.js.map",
     "runtime-main.js": "/wedding/static/js/runtime-main.ee87645b.js",
     "runtime-main.js.map": "/wedding/static/js/runtime-main.ee87645b.js.map",
     "static/js/2.58d2a702.chunk.js": "/wedding/static/js/2.58d2a702.chunk.js",
@@ -26,7 +26,7 @@
     "index.html": "/wedding/index.html",
     "service-worker.js": "/wedding/service-worker.js",
     "service-worker.js.map": "/wedding/service-worker.js.map",
-    "static/css/main.dc17377e.chunk.css.map": "/wedding/static/css/main.dc17377e.chunk.css.map",
+    "static/css/main.c24f7f11.chunk.css.map": "/wedding/static/css/main.c24f7f11.chunk.css.map",
     "static/js/2.58d2a702.chunk.js.LICENSE.txt": "/wedding/static/js/2.58d2a702.chunk.js.LICENSE.txt",
     "static/media/index.css": "/wedding/static/media/ZapfinoForteLT-One.5acda9ec.otf",
     "static/media/L0-Background.24b29c38.svg": "/wedding/static/media/L0-Background.24b29c38.svg",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee87645b.js",
     "static/js/2.58d2a702.chunk.js",
-    "static/css/main.dc17377e.chunk.css",
-    "static/js/main.2fa17557.chunk.js"
+    "static/css/main.c24f7f11.chunk.css",
+    "static/js/main.a57c60a1.chunk.js"
   ]
 }
