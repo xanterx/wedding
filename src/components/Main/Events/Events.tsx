@@ -1,7 +1,6 @@
 import './Events.css';
 
 import Card from 'components/Card/Card';
-import Icon from 'components/Icon/Icon';
 import data from 'data/events.json';
 
 interface IProps {

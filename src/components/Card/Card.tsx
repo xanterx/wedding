@@ -1,22 +1,28 @@
 import styles from './Card.module.css';
-import Ring from 'assets/images/ring.png';
-import Barat from 'assets/images/barat.png';
-import Jaimala from 'assets/images/jaimala.png';
-import Ceremony from 'assets/images/ceremony.png';
-import Vidai from 'assets/images/vidai.png';
+import ring from 'assets/images/ring.png';
+import barat from 'assets/images/barat.png';
+import jaimala from 'assets/images/jaimala.png';
+import lunch from 'assets/images/lunch.png';
+import dinner from 'assets/images/dinner.png';
+import ceremony from 'assets/images/ceremony.png';
+import vidai from 'assets/images/vidai.png';
 
 const IconRender: any = (name: string) => {
   switch (name) {
     case 'ring':
-      return <img src={Ring} alt="ring" className={styles.Ico} />;
+      return <img src={ring} alt="ring" className={styles.Ico} />;
     case 'barat':
-      return <img src={Barat} alt="barat" className={styles.Ico} />;
+      return <img src={barat} alt="barat" className={styles.Ico} />;
     case 'jaimala':
-      return <img src={Jaimala} alt="jaimala" className={styles.Ico} />;
+      return <img src={jaimala} alt="jaimala" className={styles.Ico} />;
     case 'ceremony':
-      return <img src={Ceremony} alt="ceremony" className={styles.Ico} />;
+      return <img src={ceremony} alt="ceremony" className={styles.Ico} />;
+    case 'lunch':
+      return <img src={lunch} alt="lunch" className={styles.Ico} />;
+    case 'dinner':
+      return <img src={dinner} alt="dinner" className={styles.Ico} />;
     case 'vidai':
-      return <img src={Vidai} alt="vidai" className={styles.Ico} />;
+      return <img src={vidai} alt="vidai" className={styles.Ico} />;
     default:
       return name;
   }

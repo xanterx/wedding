@@ -1,55 +1,55 @@
 {
     "english": [
         {
-            "icon": "ring",
+            "icon": "aks",
             "role": "Groom",
             "name": "Antriksh Kumar Singh",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "hh",
             "role": "Bride",
             "name": "Harshita Hayaran",
             "side": "B"
         },
         {
-            "icon": "ring",
+            "icon": "dbs",
             "role": "Groom's Father",
             "name": "Dr. Baboo Singh",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "vh",
             "role": "Bride's Father",
             "name": "Vinod Hayaran",
             "side": "B"
         },
         {
-            "icon": "ring",
+            "icon": "us",
             "role": "Groom's Mother",
             "name": "Usha Singh",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "ah",
             "role": "Bride's Mother",
             "name": "Abha Hayaran",
             "side": "B"
         },
         {
-            "icon": "ring",
+            "icon": "ck",
             "role": "Groom's Sister",
             "name": "Akanksha Singh",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "as",
             "role": "Groom's Brother in Law",
             "name": "Anup Sharma",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "yh",
             "role": "Bride's Sister",
             "name": "Yashika Hayaran",
             "side": "B"
@@ -57,55 +57,55 @@
     ],
     "hindi": [
         {
-            "icon": "ring",
+            "icon": "aks",
             "role": "दूल्हा",
             "name": "अंतरिक्ष कुमार सिंह",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "hh",
             "role": "दुल्हन",
             "name": "हर्षिता हयारण",
             "side": "B"
         },
         {
-            "icon": "ring",
+            "icon": "dbs",
             "role": "दुल्हे के पिताजी",
             "name": "डा• बाबू सिंह",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "vh",
             "role": "दुल्हन के पिताजी",
             "name": "श्री विनोद हयारण",
             "side": "B"
         },
         {
-            "icon": "ring",
+            "icon": "us",
             "role": "दुल्हे की माताजी",
             "name": "श्रीमती उषा सिंह",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "ah",
             "role": "दुल्हन की माताजी",
             "name": "श्रीमती आभा हयारण",
             "side": "B"
         },
         {
-            "icon": "ring",
+            "icon": "ck",
             "role": "दुल्हे की बहन",
             "name": "आकांक्षा सिंह",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "as",
             "role": "दुल्हे के  जीजाजी",
             "name": "अनुप शर्मा",
             "side": "G"
         },
         {
-            "icon": "ring",
+            "icon": "yh",
             "role": "दुल्हन की बहन",
             "name": "याशिका हयारण",
             "side": "B"
