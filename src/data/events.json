@@ -1,7 +1,7 @@
 {
     "english": [
         {
-            "icon": "ring",
+            "icon": "lunch",
             "desc": "Lunch",
             "time": "01:00 PM",
             "date": "02 May"
@@ -13,31 +13,31 @@
             "date": "02 May"
         },
         {
-            "icon": "ring",
+            "icon": "barat",
             "desc": "Baraat",
             "time": "06:00 PM",
             "date": "02 May"
         },
         {
-            "icon": "ring",
+            "icon": "dinner",
             "desc": "Dinner",
             "time": "08:00 PM",
             "date": "02 May"
         },
         {
-            "icon": "ring",
+            "icon": "jaimala",
             "desc": "Jai Mala",
             "time": "09:00 PM",
             "date": "02 May"
         },
         {
-            "icon": "ring",
+            "icon": "ceremony",
             "desc": "Marriage Ceremony",
             "time": "02:00 AM",
             "date": "03 May"
         },
         {
-            "icon": "ring",
+            "icon": "vidai",
             "desc": "Vidai",
             "time": "06:00 AM",
             "date": "03 May"
@@ -45,7 +45,7 @@
     ],
     "hindi": [
         {
-            "icon": "ring",
+            "icon": "lunch",
             "desc": "भोजन",
             "time": "०१:०० मध्याह्न",
             "date": "०२ मई"
@@ -57,31 +57,31 @@
             "date": "०२ मई"
         },
         {
-            "icon": "ring",
+            "icon": "barat",
             "desc": "घुड़चड़ी एवम् चढ़त",
             "time": "०६:०० सायं",
             "date": "०२ मई"
         },
         {
-            "icon": "ring",
+            "icon": "dinner",
             "desc": "प्रीतिभोज",
             "time": "०८:०० रात्रि",
             "date": "०२ मई"
         },
         {
-            "icon": "ring",
+            "icon": "jaimala",
             "desc": "जयमाला",
             "time": "०९:०० रात्रि",
             "date": "०२ मई"
         },
         {
-            "icon": "ring",
+            "icon": "ceremony",
             "desc": "पाणिग्रहण संस्कार",
             "time": "०२:०० मध्यरात्रि",
             "date": "०२ मई"
         },
         {
-            "icon": "ring",
+            "icon": "vidai",
             "desc": "विदाई",
             "time": "०६:०० प्रातः",
             "date": "०३ मई"

@@ -20,14 +20,22 @@ const Events: React.FC<IProps> = (props: IProps) => {
       <div className="Invite">
         {props.isEnglish
           ? data.english.map((v, i) => (
-              <Card key={i} desc={v.desc} date={v.date} {...parseTime(v.time)}>
-                <Icon name={v.icon} />
-              </Card>
+              <Card
+                key={i}
+                desc={v.desc}
+                date={v.date}
+                ico={v.icon}
+                {...parseTime(v.time)}
+              />
             ))
           : data.hindi.map((v, i) => (
-              <Card key={i} desc={v.desc} date={v.date} {...parseTime(v.time)}>
-                <Icon name={v.icon} />
-              </Card>
+              <Card
+                key={i}
+                desc={v.desc}
+                ico={v.icon}
+                date={v.date}
+                {...parseTime(v.time)}
+              />
             ))}
       </div>
     </div>
