@@ -131,7 +131,7 @@ const VolProvider = ({ children }: VolProviderProps) => {
 
 const FullProvider = ({ children }: FullProviderProps) => {
   const [state, dispatch] = useReducer(fullReducer, {
-    fullscreen: true,
+    fullscreen: false,
   });
   const value = { state, dispatch };
   return <FullContext.Provider value={value}>{children}</FullContext.Provider>;
