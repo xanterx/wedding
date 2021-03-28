@@ -13,7 +13,6 @@ const Main: React.FC = () => {
     <div className="Main">
       {/* @ts-ignore */}
       <SwipeableViews
-        className="Main"
         enableMouseEvents
         index={page.state.index}
         resistance
