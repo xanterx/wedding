@@ -37,12 +37,6 @@
             "side": "B"
         },
         {
-            "icon": "ck",
-            "role": "Groom's Sister",
-            "name": "Akanksha Singh",
-            "side": "G"
-        },
-        {
             "icon": "as",
             "role": "Groom's Brother in Law",
             "name": "Anup Sharma",
@@ -53,6 +47,12 @@
             "role": "Bride's Sister",
             "name": "Yashika Hayaran",
             "side": "B"
+        },
+        {
+            "icon": "ck",
+            "role": "Groom's Sister",
+            "name": "Akanksha Singh",
+            "side": "G"
         }
     ],
     "hindi": [
@@ -93,12 +93,6 @@
             "side": "B"
         },
         {
-            "icon": "ck",
-            "role": "दुल्हे की बहन",
-            "name": "आकांक्षा सिंह",
-            "side": "G"
-        },
-        {
             "icon": "as",
             "role": "दुल्हे के  जीजाश्री",
             "name": "अनुप शर्मा",
@@ -109,6 +103,12 @@
             "role": "दुल्हन की बहन",
             "name": "याशिका हयारण",
             "side": "B"
+        },
+        {
+            "icon": "ck",
+            "role": "दुल्हे की बहन",
+            "name": "आकांक्षा सिंह",
+            "side": "G"
         }
     ]
 }

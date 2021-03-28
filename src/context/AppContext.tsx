@@ -118,7 +118,7 @@ const LangProvider = ({ children }: LangProviderProps) => {
 
 const VolProvider = ({ children }: VolProviderProps) => {
   const fetchVol = localStorage.getItem('mute');
-  let defaultVol: boolean = true;
+  let defaultVol: boolean = false;
   if (fetchVol) {
     defaultVol = fetchVol === 'true';
   }
