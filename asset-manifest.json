@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.39dac645.chunk.css",
-    "main.js": "/static/js/main.a62ffc3a.chunk.js",
-    "main.js.map": "/static/js/main.a62ffc3a.chunk.js.map",
+    "main.js": "/static/js/main.81d3dc98.chunk.js",
+    "main.js.map": "/static/js/main.81d3dc98.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.11e4b4b2.js",
     "runtime-main.js.map": "/static/js/runtime-main.11e4b4b2.js.map",
     "static/js/2.4a3db681.chunk.js": "/static/js/2.4a3db681.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/L6-Banner-HA.b093821f.png": "/static/media/L6-Banner-HA.b093821f.png",
     "static/media/Lord-Ganesha-Vector.a594bb7b.svg": "/static/media/Lord-Ganesha-Vector.a594bb7b.svg",
     "static/media/adaytoremember.df69bec9.mp3": "/static/media/adaytoremember.df69bec9.mp3",
-    "static/media/ah.5ac13aa9.png": "/static/media/ah.5ac13aa9.png",
+    "static/media/ah.16051b42.png": "/static/media/ah.16051b42.png",
     "static/media/aks.9d6c7a2b.png": "/static/media/aks.9d6c7a2b.png",
     "static/media/as.a29ff5ed.png": "/static/media/as.a29ff5ed.png",
     "static/media/barat.fbe74364.png": "/static/media/barat.fbe74364.png",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.11e4b4b2.js",
     "static/js/2.4a3db681.chunk.js",
     "static/css/main.39dac645.chunk.css",
-    "static/js/main.a62ffc3a.chunk.js"
+    "static/js/main.81d3dc98.chunk.js"
   ]
 }
