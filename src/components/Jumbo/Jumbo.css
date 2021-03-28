@@ -2,7 +2,13 @@
   flex: 0 1 auto;
   background: #fff0e5;
   margin: auto;
+  margin-top: 0px;
   position: relative;
+  transition: margin-top 1s ease;
+}
+
+.Hide {
+  margin-top: -230px;
 }
 
 /* Jumbotron */

@@ -30,6 +30,7 @@
   );
   box-shadow: 0px 3px 6px #00000029;
   z-index: 3;
+  transition: transform 1s;
 }
 
 .Language {
@@ -61,6 +62,7 @@
 
 .Button {
   cursor: default;
+  color: #fff0e5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,10 +70,14 @@
 
 .BtnNotActive {
   text-shadow: 4px 4px 2px #00000029;
-  color: #fff0e5;
+  color: #fffeb6;
   cursor: pointer;
 }
 
 .BtnIcon {
   cursor: pointer;
+  text-shadow: 4px 4px 2px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

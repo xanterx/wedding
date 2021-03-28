@@ -1,12 +1,20 @@
 import { useState } from 'react';
 import { useIdleTimer } from 'react-idle-timer';
+import {
+  VolumeOffRounded,
+  VolumeUpRounded,
+  FullscreenRounded,
+  FullscreenExitRounded,
+} from '@material-ui/icons';
 
 import './ActionBar.css';
-import { useLang } from 'context/AppContext';
+import { useLang, useVol, useFull } from 'context/AppContext';
 import { vibrate } from 'utils';
 
 const ActionBar = () => {
   const lang = useLang();
+  const muted = useVol();
+  const fullscreen = useFull();
 
   const [active, setActive] = useState<boolean>(true);
 
@@ -28,6 +36,14 @@ const ActionBar = () => {
 
   return (
     <div className="ActionBar">
+      <div className={`Install ${active ? '' : 'Hidden'}`}>
+        <div
+          className="BtnIcon"
+          onClick={() => muted.dispatch({ type: 'toggle' })}
+        >
+          {muted.state.mute ? <VolumeUpRounded /> : <VolumeOffRounded />}
+        </div>
+      </div>
       <div className={`Language ${active ? '' : 'Hidden'}`}>
         <div
           className={`Button ${lang.state.isEnglish ? '' : 'BtnNotActive'}`}
@@ -40,6 +56,18 @@ const ActionBar = () => {
           onClick={() => onClickHandler(false)}
         >
           हिन्दी
+        </div>
+      </div>
+      <div className={`Install ${active ? '' : 'Hidden'}`}>
+        <div
+          className="BtnIcon"
+          onClick={() => fullscreen.dispatch({ type: 'toggle' })}
+        >
+          {fullscreen.state.fullscreen ? (
+            <FullscreenExitRounded />
+          ) : (
+            <FullscreenRounded />
+          )}
         </div>
       </div>
     </div>

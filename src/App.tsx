@@ -1,23 +1,32 @@
 import './App.css';
-import { PageProvider, LangProvider } from 'context/AppContext';
+import {
+  PageProvider,
+  LangProvider,
+  VolProvider,
+  FullProvider,
+} from 'context/AppContext';
 import Nav from 'components/Nav/Nav';
 import Jumbo from 'components/Jumbo/Jumbo';
 import Main from 'components/Main/Main';
 import ActionBar from 'components/ActionBar/ActionBar';
-import sound from 'assets/sounds/adaytoremember.mp3';
+import Audio from 'Audio';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <audio src={sound} autoPlay loop muted />
-      <LangProvider>
-        <PageProvider>
-          <Nav />
-          <Jumbo />
-          <Main />
-          <ActionBar />
-        </PageProvider>
-      </LangProvider>
+      <VolProvider>
+        <FullProvider>
+          <LangProvider>
+            <PageProvider>
+              <Audio />
+              <Nav />
+              <Jumbo />
+              <Main />
+              <ActionBar />
+            </PageProvider>
+          </LangProvider>
+        </FullProvider>
+      </VolProvider>
     </div>
   );
 };

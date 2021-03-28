@@ -8,11 +8,11 @@ import L5 from 'assets/images/L5-FrontFlower.png';
 import L6 from 'assets/images/L6-Banner-HA.png';
 import L60 from 'assets/images/L6-Banner-E.png';
 import L61 from 'assets/images/L6-Banner-F.png';
-import { usePage } from 'context/AppContext';
+import { usePage, useFull } from 'context/AppContext';
 
 const Jumbo: React.FC = () => {
+  const fullscreen = useFull();
   const page = usePage();
-  console.log(page.state.index);
   const banner = () => {
     switch (page.state.index) {
       case 0:
@@ -26,7 +26,7 @@ const Jumbo: React.FC = () => {
     }
   };
   return (
-    <div className="Jumbo">
+    <div className={`Jumbo ${fullscreen.state.fullscreen ? 'Hide' : ''}`}>
       <div className="BaseImg">
         <L0 className="Art" />
       </div>
