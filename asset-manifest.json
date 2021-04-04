@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.39dac645.chunk.css",
-    "main.js": "/static/js/main.81d3dc98.chunk.js",
-    "main.js.map": "/static/js/main.81d3dc98.chunk.js.map",
+    "main.js": "/static/js/main.29bf9e6e.chunk.js",
+    "main.js.map": "/static/js/main.29bf9e6e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.11e4b4b2.js",
     "runtime-main.js.map": "/static/js/runtime-main.11e4b4b2.js.map",
-    "static/js/2.4a3db681.chunk.js": "/static/js/2.4a3db681.chunk.js",
-    "static/js/2.4a3db681.chunk.js.map": "/static/js/2.4a3db681.chunk.js.map",
+    "static/js/2.eae9ab1a.chunk.js": "/static/js/2.eae9ab1a.chunk.js",
+    "static/js/2.eae9ab1a.chunk.js.map": "/static/js/2.eae9ab1a.chunk.js.map",
     "static/js/3.ad5c0bdd.chunk.js": "/static/js/3.ad5c0bdd.chunk.js",
     "static/js/3.ad5c0bdd.chunk.js.map": "/static/js/3.ad5c0bdd.chunk.js.map",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
     "static/css/main.39dac645.chunk.css.map": "/static/css/main.39dac645.chunk.css.map",
-    "static/js/2.4a3db681.chunk.js.LICENSE.txt": "/static/js/2.4a3db681.chunk.js.LICENSE.txt",
+    "static/js/2.eae9ab1a.chunk.js.LICENSE.txt": "/static/js/2.eae9ab1a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/ZapfinoForteLT-One.5acda9ec.otf",
     "static/media/L0-Background.24b29c38.svg": "/static/media/L0-Background.24b29c38.svg",
     "static/media/L1-Hole.3551387b.png": "/static/media/L1-Hole.3551387b.png",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.11e4b4b2.js",
-    "static/js/2.4a3db681.chunk.js",
+    "static/js/2.eae9ab1a.chunk.js",
     "static/css/main.39dac645.chunk.css",
-    "static/js/main.81d3dc98.chunk.js"
+    "static/js/main.29bf9e6e.chunk.js"
   ]
 }
