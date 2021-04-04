@@ -41,7 +41,7 @@ const ActionBar = () => {
           className="BtnIcon"
           onClick={() => muted.dispatch({ type: 'toggle' })}
         >
-          {muted.state.mute ? <VolumeUpRounded /> : <VolumeOffRounded />}
+          {muted.state.mute ? <VolumeOffRounded /> : <VolumeUpRounded />}
         </div>
       </div>
       <div className={`Language ${active ? '' : 'Hidden'}`}>
