@@ -10,22 +10,21 @@ const HnA: React.FC<IProps> = ({ isEnglish }) => {
       <div className="Invite">
         {isEnglish ? (
           <div className="English">
-            <p className="SubScript">ARE GETTING MARRIED</p>
-            <p>2nd of May 2021</p>
-            <p className="SubScript">AT</p>
-            <a href="https://goo.gl/maps/vx4uyb3fL1CCgVAe8">
-              <p>Shree Krishan Janmashtmi Ashram Vrindavan</p>
+            <p className="SubScript">Due to Corona</p>
+            <p>Our Marriage is Delayed</p>
+            <p className="SubScript">please</p>
+            <a>
+              <p>Stay Tuned</p>
             </a>
           </div>
         ) : (
           <div className="Hindi">
-            <p className="SubScript">का विवाह</p>
-            <p>२ मई २०२१</p>
-            <p className="SubScript">को</p>
-            <a href="https://goo.gl/maps/vx4uyb3fL1CCgVAe8">
-              <p>श्री कृष्ण जन्माष्टमी आश्रम वृंदावन</p>
+            <p className="SubScript">कोरोना के कारण</p>
+            <p>हमारी शादी विलंबित होगयी है</p>
+            <p className="SubScript">कृपया</p>
+            <a>
+              <p>हमारे साथ बने रहे</p>
             </a>
-            <p className="SubScript">में है</p>
           </div>
         )}
       </div>
