@@ -13,6 +13,7 @@
     "@types/node": "^12.20.5",
     "@types/react": "^16.14.5",
     "@types/react-dom": "^16.9.11",
+    "gh-deploy": "^0.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-idle-timer": "^4.5.6",
