@@ -2,89 +2,65 @@
     "english": [
         {
             "icon": "lunch",
-            "desc": "Lunch",
+            "desc": "Shri Ganesh Poojan and Mata Poojan",
             "time": "01:00 PM",
-            "date": "02 July"
+            "date": "28 November"
         },
         {
             "icon": "ring",
-            "desc": "Engagement",
-            "time": "02:00 PM",
-            "date": "02 July"
+            "desc": "Mandap",
+            "time": "01:00 PM",
+            "date": "30 November"
         },
         {
             "icon": "barat",
-            "desc": "Baraat",
-            "time": "06:00 PM",
-            "date": "02 July"
+            "desc": "Godh bharai and Tilak Ceremony (The City Grand hotel)",
+            "time": "11:00 AM",
+            "date": "02 December"
         },
         {
             "icon": "dinner",
-            "desc": "Dinner",
-            "time": "08:00 PM",
-            "date": "02 July"
-        },
-        {
-            "icon": "jaimala",
-            "desc": "Jai Mala",
-            "time": "09:00 PM",
-            "date": "02 July"
-        },
-        {
-            "icon": "ceremony",
-            "desc": "Marriage Ceremony",
-            "time": "02:00 AM",
-            "date": "03 July"
+            "desc": "Phere, Reception and dinner (Utsav Vatika)",
+            "time": "07:00 PM",
+            "date": "02 December"
         },
         {
             "icon": "vidai",
             "desc": "Vidai",
             "time": "06:00 AM",
-            "date": "03 July"
+            "date": "03 December"
         }
     ],
     "hindi": [
         {
             "icon": "lunch",
-            "desc": "भोजन",
+            "desc": "श्री गणेश पूजन और माता पूजन",
             "time": "०१:०० मध्याह्न",
-            "date": "०२ जुलाई"
+            "date": "२८ नवम्बर"
         },
         {
             "icon": "ring",
-            "desc": "टीका एवम् गोद भराई",
-            "time": "०२:०० अपराह्न",
-            "date": "०२ जुलाई"
+            "desc": "मंडप",
+            "time": "०१:०० अपराह्न",
+            "date": "३० नवम्बर"
         },
         {
             "icon": "barat",
-            "desc": "घुड़चड़ी एवम् चढ़त",
-            "time": "०६:०० सायं",
-            "date": "०२ जुलाई"
+            "desc": "गोध भराई और तिलक समारोह (सिटी ग्रांड होटल)",
+            "time": "११:०० अपराह्न",
+            "date": "०२ दिसंबर"
         },
         {
             "icon": "dinner",
-            "desc": "प्रीतिभोज",
+            "desc": "फेरे, रिसेप्शन और प्रति भोज (उत्सव वाटिका)",
             "time": "०८:०० रात्रि",
-            "date": "०२ जुलाई"
-        },
-        {
-            "icon": "jaimala",
-            "desc": "जयमाला",
-            "time": "०९:०० रात्रि",
-            "date": "०२ जुलाई"
-        },
-        {
-            "icon": "ceremony",
-            "desc": "पाणिग्रहण संस्कार",
-            "time": "०२:०० मध्यरात्रि",
-            "date": "०२ जुलाई"
+            "date": "०२ दिसंबर"
         },
         {
             "icon": "vidai",
             "desc": "विदाई",
             "time": "०६:०० प्रातः",
-            "date": "०३ जुलाई"
+            "date": "०३ दिसंबर"
         }
     ]
 }

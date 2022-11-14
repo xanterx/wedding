@@ -22,7 +22,7 @@ const Nav: React.FC = () => {
     page.dispatch({ type: PageActions.SET, payload: n });
   };
 
-  const lH = () => (lang.state.isEnglish ? 'H & A' : 'ह•अ');
+  const lH = () => (lang.state.isEnglish ? 'S & M' : 'शै•म');
   const lE = () => (lang.state.isEnglish ? 'Events' : 'आयोजन');
   const lF = () => (lang.state.isEnglish ? 'Family' : 'परिवार');
 
