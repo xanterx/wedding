@@ -2,7 +2,7 @@
   flex: 0 1 auto;
   width: 100%;
   z-index: 2;
-  background: #d65e6e;
+  background: #5b56ee;
   display: flex;
   justify-content: space-between;
   min-height: 50px;
@@ -19,7 +19,7 @@
   margin-top: auto;
   margin-bottom: auto;
   font-family: 'Laila SemiBold';
-  color: #fffeb6;
+  color: #ccb6ff;
   font-size: 20px;
 }
 
@@ -31,7 +31,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  background: #fffeb6;
+  background: #ccb6ff;
   height: 52px;
   width: 52px;
   border-radius: 50%;

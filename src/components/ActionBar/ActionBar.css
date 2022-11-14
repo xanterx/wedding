@@ -23,10 +23,10 @@
   border-radius: 30px;
   background-image: linear-gradient(
     to right,
-    #fffeb6 -20%,
-    #ee566b 25%,
-    #ee566b 75%,
-    #fffeb6 120%
+    #ccb6ff -20%,
+    #5b56ee 25%,
+    #5689ee 75%,
+    #ccb6ff 120%
   );
   box-shadow: 0px 3px 6px #00000029;
   z-index: 3;
@@ -46,10 +46,10 @@
   border-radius: 30px;
   background-image: linear-gradient(
     to right,
-    #fffeb6 -20%,
-    #ee566b 25%,
-    #ee566b 75%,
-    #fffeb6 120%
+    #ccb6ff -20%,
+    #5b56ee 25%,
+    #5689ee 75%,
+    #ccb6ff 120%
   );
   box-shadow: 0px 3px 6px #00000029;
   z-index: 3;
@@ -62,7 +62,7 @@
 
 .Button {
   cursor: default;
-  color: #fff0e5;
+  color: #ccb6ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +70,7 @@
 
 .BtnNotActive {
   text-shadow: 4px 4px 2px #00000029;
-  color: #fffeb6;
+  color: #fefefe;
   cursor: pointer;
 }
 
