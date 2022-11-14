@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.c4bcc802.css",
-    "main.js": "/wedding/static/js/main.e68923f0.js",
+    "main.css": "/wedding/static/css/main.be3235f1.css",
+    "main.js": "/wedding/static/js/main.5ffa7217.js",
     "static/js/377.c1834e0e.chunk.js": "/wedding/static/js/377.c1834e0e.chunk.js",
     "static/media/adaytoremember.mp3": "/wedding/static/media/adaytoremember.df69bec9a0a0c14f1a3d.mp3",
     "static/media/Gotu-Regular.ttf": "/wedding/static/media/Gotu-Regular.b3923255f9af6a2b8aca.ttf",
@@ -31,16 +31,16 @@
     "static/media/ring.png": "/wedding/static/media/ring.a1cb65d64d4a8ef37d0f.png",
     "static/media/dinner.png": "/wedding/static/media/dinner.251a232a548253435739.png",
     "static/media/Lord-Ganesha-Vector.svg": "/wedding/static/media/Lord-Ganesha-Vector.a594bb7b301bd793c106f7d4b92ef973.svg",
-    "static/media/right-arrow.svg": "/wedding/static/media/right-arrow.011bf4f1064d159f0b8677b8c5cebe00.svg",
-    "static/media/left-arrow.svg": "/wedding/static/media/left-arrow.80179bee37d2e773619de78a82707c24.svg",
+    "static/media/right-arrow.svg": "/wedding/static/media/right-arrow.2a367a012d1fa63c3715a26446cf0698.svg",
+    "static/media/left-arrow.svg": "/wedding/static/media/left-arrow.9e838569d0d91e8ff6236669b484f8be.svg",
     "index.html": "/wedding/index.html",
     "static/media/L0-Background.svg": "/wedding/static/media/L0-Background.24b29c388d52084537789a5dcbb69f0d.svg",
-    "main.c4bcc802.css.map": "/wedding/static/css/main.c4bcc802.css.map",
-    "main.e68923f0.js.map": "/wedding/static/js/main.e68923f0.js.map",
+    "main.be3235f1.css.map": "/wedding/static/css/main.be3235f1.css.map",
+    "main.5ffa7217.js.map": "/wedding/static/js/main.5ffa7217.js.map",
     "377.c1834e0e.chunk.js.map": "/wedding/static/js/377.c1834e0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4bcc802.css",
-    "static/js/main.e68923f0.js"
+    "static/css/main.be3235f1.css",
+    "static/js/main.5ffa7217.js"
   ]
 }
