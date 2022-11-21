@@ -20,14 +20,14 @@
         },
         {
             "icon": "dinner",
-            "desc": "Phere, Reception and dinner (Utsav Vatika)",
+            "desc": "Reception and dinner (Utsav Vatika)",
             "time": "07:00 PM",
             "date": "02 December"
         },
         {
             "icon": "vidai",
             "desc": "Vidai",
-            "time": "06:00 AM",
+            "time": "07:00 AM",
             "date": "03 December"
         }
     ],
@@ -52,14 +52,14 @@
         },
         {
             "icon": "dinner",
-            "desc": "फेरे, रिसेप्शन और प्रति भोज (उत्सव वाटिका)",
+            "desc": "रिसेप्शन और प्रति भोज (उत्सव वाटिका)",
             "time": "०८:०० रात्रि",
             "date": "०२ दिसंबर"
         },
         {
             "icon": "vidai",
             "desc": "विदाई",
-            "time": "०६:०० प्रातः",
+            "time": "०७:०० प्रातः",
             "date": "०३ दिसंबर"
         }
     ]
