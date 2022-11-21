@@ -1,27 +1,23 @@
 {
   "files": {
     "main.css": "/wedding/static/css/main.be3235f1.css",
-    "main.js": "/wedding/static/js/main.5ffa7217.js",
+    "main.js": "/wedding/static/js/main.040c840d.js",
     "static/js/377.c1834e0e.chunk.js": "/wedding/static/js/377.c1834e0e.chunk.js",
     "static/media/adaytoremember.mp3": "/wedding/static/media/adaytoremember.df69bec9a0a0c14f1a3d.mp3",
     "static/media/Gotu-Regular.ttf": "/wedding/static/media/Gotu-Regular.b3923255f9af6a2b8aca.ttf",
-    "static/media/L1-Hole.png": "/wedding/static/media/L1-Hole.3551387b6a6b6ffa546f.png",
     "static/media/Laila-SemiBold.ttf": "/wedding/static/media/Laila-SemiBold.7580956b481070b77fed.ttf",
-    "static/media/L5-FrontFlower.png": "/wedding/static/media/L5-FrontFlower.8b4fd458f782394f1ca7.png",
-    "static/media/ah.png": "/wedding/static/media/ah.16051b426600d33c76ac.png",
+    "static/media/L1-Hole.png": "/wedding/static/media/L1-Hole.9c894d80cf1a71b77ab6.png",
+    "static/media/dbs.png": "/wedding/static/media/dbs.b10ea0cd2b95178c0239.png",
+    "static/media/us.png": "/wedding/static/media/us.99fd02b1f7c44959ed2e.png",
     "static/media/ck.png": "/wedding/static/media/ck.65b8147063970d1e3289.png",
-    "static/media/us.png": "/wedding/static/media/us.93a4a3f1876c1d9365cd.png",
-    "static/media/vh.png": "/wedding/static/media/vh.ea8b5efe7321b471b2bd.png",
-    "static/media/aks.png": "/wedding/static/media/aks.9d6c7a2b1ebe7d005610.png",
-    "static/media/hh.png": "/wedding/static/media/hh.f86bd4cde5212cb8ecf8.png",
     "static/media/yh.png": "/wedding/static/media/yh.737e05591e02f6a5f246.png",
     "static/media/as.png": "/wedding/static/media/as.a29ff5ed7811fe62454c.png",
-    "static/media/dbs.png": "/wedding/static/media/dbs.6ae58cfabe2cf72d79d1.png",
-    "static/media/L4-US.png": "/wedding/static/media/L4-US.7ca6fbfd07e8ac95546b.png",
+    "static/media/aks.png": "/wedding/static/media/aks.4ad1482ddcce93e6bc85.png",
+    "static/media/vh.png": "/wedding/static/media/vh.c77a052bd1cfa71b9dca.png",
+    "static/media/hh.png": "/wedding/static/media/hh.6fad1445b621cde03a36.png",
+    "static/media/ah.png": "/wedding/static/media/ah.f5cc2b34c674d609671e.png",
     "service-worker.js": "/wedding/service-worker.js",
     "static/media/ZapfinoForteLT-One.otf": "/wedding/static/media/ZapfinoForteLT-One.5acda9ecd6dffc748387.otf",
-    "static/media/L3-BackFlower.png": "/wedding/static/media/L3-BackFlower.167fc62bd4d9f24ddf67.png",
-    "static/media/L2-Cover.png": "/wedding/static/media/L2-Cover.7cbbb052af3659132378.png",
     "static/media/L6-Banner-HA.png": "/wedding/static/media/L6-Banner-HA.b093821f2d94c9518d7f.png",
     "static/media/L6-Banner-F.png": "/wedding/static/media/L6-Banner-F.72367454b68a186b1083.png",
     "static/media/L6-Banner-E.png": "/wedding/static/media/L6-Banner-E.d808ef3c879d0ac583c7.png",
@@ -34,13 +30,13 @@
     "static/media/right-arrow.svg": "/wedding/static/media/right-arrow.2a367a012d1fa63c3715a26446cf0698.svg",
     "static/media/left-arrow.svg": "/wedding/static/media/left-arrow.9e838569d0d91e8ff6236669b484f8be.svg",
     "index.html": "/wedding/index.html",
-    "static/media/L0-Background.svg": "/wedding/static/media/L0-Background.24b29c388d52084537789a5dcbb69f0d.svg",
+    "static/media/L0-Background.svg": "/wedding/static/media/L0-Background.a399f207b75adde519a81740603cc26c.svg",
     "main.be3235f1.css.map": "/wedding/static/css/main.be3235f1.css.map",
-    "main.5ffa7217.js.map": "/wedding/static/js/main.5ffa7217.js.map",
+    "main.040c840d.js.map": "/wedding/static/js/main.040c840d.js.map",
     "377.c1834e0e.chunk.js.map": "/wedding/static/js/377.c1834e0e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be3235f1.css",
-    "static/js/main.5ffa7217.js"
+    "static/js/main.040c840d.js"
   ]
 }
