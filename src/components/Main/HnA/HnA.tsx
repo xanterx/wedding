@@ -10,6 +10,7 @@ const HnA: React.FC<IProps> = ({ isEnglish }) => {
       <div className="Invite">
         {isEnglish ? (
           <div className="English">
+            <p>Mayank & Shailja</p>
             <p className="SubScript">ARE GETTING MARRIED</p>
             <p>2nd of December 2022</p>
             <p className="SubScript">AT</p>
@@ -19,6 +20,7 @@ const HnA: React.FC<IProps> = ({ isEnglish }) => {
           </div>
         ) : (
           <div className="Hindi">
+            <p>मयंक & शैलजा</p>
             <p className="SubScript">का विवाह</p>
             <p>२ दिसंबर २०२१</p>
             <p className="SubScript">को</p>
