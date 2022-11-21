@@ -33,19 +33,6 @@ const Jumbo: React.FC = () => {
       <div className="Img">
         <img className="Art" src={L1} alt="Layer 1" />
       </div>
-      <div className="Img">
-        <img className="Art" src={L2} alt="Layer 2" />
-      </div>
-      <div className="Img">
-        <img className="Art" src={L3} alt="Layer 3" />
-      </div>
-      <div className="Img">
-        <img className="Art" src={L4} alt="Layer 4" />
-      </div>
-      <div className="Img">
-        <img className="Art" src={L5} alt="Layer 5" />
-      </div>
-      <div className="Img">{banner()}</div>
     </div>
   );
 };
