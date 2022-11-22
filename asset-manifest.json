@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/wedding/static/css/main.be3235f1.css",
-    "main.js": "/wedding/static/js/main.040c840d.js",
+    "main.js": "/wedding/static/js/main.08e01611.js",
     "static/js/377.c1834e0e.chunk.js": "/wedding/static/js/377.c1834e0e.chunk.js",
     "static/media/adaytoremember.mp3": "/wedding/static/media/adaytoremember.df69bec9a0a0c14f1a3d.mp3",
     "static/media/Gotu-Regular.ttf": "/wedding/static/media/Gotu-Regular.b3923255f9af6a2b8aca.ttf",
     "static/media/Laila-SemiBold.ttf": "/wedding/static/media/Laila-SemiBold.7580956b481070b77fed.ttf",
-    "static/media/L1-Hole.png": "/wedding/static/media/L1-Hole.9c894d80cf1a71b77ab6.png",
+    "static/media/L1-Hole.png": "/wedding/static/media/L1-Hole.125fd376905e247d5336.png",
     "static/media/dbs.png": "/wedding/static/media/dbs.b10ea0cd2b95178c0239.png",
     "static/media/us.png": "/wedding/static/media/us.99fd02b1f7c44959ed2e.png",
     "static/media/ck.png": "/wedding/static/media/ck.65b8147063970d1e3289.png",
@@ -32,11 +32,11 @@
     "index.html": "/wedding/index.html",
     "static/media/L0-Background.svg": "/wedding/static/media/L0-Background.a399f207b75adde519a81740603cc26c.svg",
     "main.be3235f1.css.map": "/wedding/static/css/main.be3235f1.css.map",
-    "main.040c840d.js.map": "/wedding/static/js/main.040c840d.js.map",
+    "main.08e01611.js.map": "/wedding/static/js/main.08e01611.js.map",
     "377.c1834e0e.chunk.js.map": "/wedding/static/js/377.c1834e0e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be3235f1.css",
-    "static/js/main.040c840d.js"
+    "static/js/main.08e01611.js"
   ]
 }
