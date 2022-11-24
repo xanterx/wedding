@@ -20,7 +20,7 @@ const HnA: React.FC<IProps> = ({ isEnglish }) => {
           </div>
         ) : (
           <div className="Hindi">
-            <p>मयंक & शैलजा</p>
+            <p>मयंक संग शैलजा</p>
             <p className="SubScript">का विवाह</p>
             <p>२ दिसंबर २०२१</p>
             <p className="SubScript">को</p>

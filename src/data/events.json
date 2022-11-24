@@ -14,7 +14,7 @@
         },
         {
             "icon": "barat",
-            "desc": "Godh Bharai and Tilak Ceremony (The City Grand Hotel)",
+            "desc": "God Bharai and Tilak Ceremony (The City Grand Hotel)",
             "time": "11:00 AM",
             "date": "02 December"
         },
@@ -34,7 +34,7 @@
     "hindi": [
         {
             "icon": "lunch",
-            "desc": "श्री गणेश पूजन और माता पूजन",
+            "desc": "श्री गणेश पूजन एवं माता पूजन",
             "time": "०१:०० मध्याह्न",
             "date": "२८ नवम्बर"
         },
@@ -46,13 +46,13 @@
         },
         {
             "icon": "barat",
-            "desc": "गोध भराई और तिलक समारोह (सिटी ग्रांड होटल)",
+            "desc": "गोद भराई एवं तिलक समारोह (सिटी ग्रांड होटल)",
             "time": "११:०० अपराह्न",
             "date": "०२ दिसंबर"
         },
         {
             "icon": "dinner",
-            "desc": "रिसेप्शन और प्रति भोज (उत्सव वाटिका)",
+            "desc": "स्वागत समारोह एवं प्रीतिभोज (उत्सव वाटिका)",
             "time": "०८:०० रात्रि",
             "date": "०२ दिसंबर"
         },
