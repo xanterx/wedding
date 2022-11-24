@@ -15,14 +15,14 @@ const HnA: React.FC<IProps> = ({ isEnglish }) => {
             <p>2nd of December 2022</p>
             <p className="SubScript">AT</p>
             <a href="https://goo.gl/maps/yGHYhv7mjhiCssk26">
-              <p>Utsav Vatika near Jiwaji club, Gwalior</p>
+              <p>Utsav Vatika near Jiwaji Club, Gwalior</p>
             </a>
           </div>
         ) : (
           <div className="Hindi">
             <p>मयंक संग शैलजा</p>
             <p className="SubScript">का विवाह</p>
-            <p>२ दिसंबर २०२१</p>
+            <p>२ दिसंबर २०२२</p>
             <p className="SubScript">को</p>
             <a href="https://goo.gl/maps/yGHYhv7mjhiCssk26">
               <p>उत्सव वाटिका, जीवाजी क्लब के पास, ग्वालियर</p>
